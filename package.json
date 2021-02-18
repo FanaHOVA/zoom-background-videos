@@ -5,7 +5,7 @@
   "scripts": {
     "start": "remotion preview src/index.tsx",
     "build": "yarn build:space-journey",
-    "build:space-journey": "remotion render src/index.tsx SpaceJourney space-journey.mp4",
+    "build:space-journey": "remotion render src/index.tsx PortfolioJourney space-journey.mp4",
     "upgrade": "remotion upgrade",
     "server": "ts-node server.tsx",
     "test": "eslint 'src' --ext ts,tsx,js,jsx && tsc",
